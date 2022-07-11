@@ -1,0 +1,82 @@
+.btn-black {
+	color: #fff;
+	background-color: black;
+	border-color: black;
+	cursor: pointer;
+}
+
+.btn-black:hover {
+	color: #fff;
+	background-color: #333;
+	border-color: #333;
+}
+
+.btn-green {
+	color: #fff;
+	background-color: green;
+	border-color: green;
+	cursor: pointer;
+}
+
+.btn-green:hover {
+	color: #fff;
+	background-color: #006d00;
+	border-color: #006d00;
+}
+
+table > tbody {
+	/* color: #333; */
+	color: black;
+	font-size: 0.95em;
+}
+
+.fa-pointer {
+	cursor: pointer;
+}
+
+.pagination .page-item .page-link {
+	/* width: 70px */
+}
+
+.pagination .active .page-link,
+.pagination .active .page-link:hover,
+.pagination .active .page-link:focus {
+	background-color: #0866c6;
+}
+
+@media (min-width: 992px) {
+	.modal-lg {
+		min-width: 800px !important;
+	}
+}
+
+@media (min-width: 576px) {
+	.modal-sm {
+		min-width: 400px !important;
+	}
+
+	.modal-dialog {
+		min-width: 500px;
+	}
+}
+
+.custom-file-input:lang(en)::after {
+	content: "Seleccione un archivo...";
+}
+
+.custom-file-input:lang(en)::before {
+	content: "Click me";
+}
+
+/*when a value is selected, this class removes the content */
+.custom-file-input.selected:lang(en)::after {
+	content: "" !important;
+}
+
+.custom-file {
+	overflow: hidden;
+}
+
+.custom-file-input {
+	white-space: nowrap;
+}
